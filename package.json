@@ -1,21 +1,35 @@
 {
-    "name": "darkmode",
-    "displayName": "DarkMode",
-    "description": "Dark Mode for VSCode",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.46.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Dark Mode",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Dark Mode-color-theme.json"
-            }
-        ]
-    }
+  "name": "darkmode",
+  "displayName": "DarkMode",
+  "description": "Dark Mode for VSCode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.46.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Mode",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark Mode-color-theme.json"
+      }
+    ]
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wolfo-Gaming/VSDark.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wolfo-Gaming/VSDark/issues"
+  },
+  "homepage": "https://github.com/Wolfo-Gaming/VSDark#readme"
 }
