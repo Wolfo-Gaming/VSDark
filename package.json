@@ -1,0 +1,21 @@
+{
+    "name": "darkmode",
+    "displayName": "DarkMode",
+    "description": "Dark Mode for VSCode",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Mode",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dark Mode-color-theme.json"
+            }
+        ]
+    }
+}
